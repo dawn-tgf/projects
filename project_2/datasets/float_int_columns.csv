@@ -1,0 +1,36 @@
+column_name,dtype
+Lot Frontage ,float
+Lot Area ,float
+Mas Vnr Area ,float
+BsmtFin SF 1 ,float
+BsmtFin SF 2 ,float
+Bsmt Unf SF ,float
+Total Bsmt SF ,float
+1st Flr SF ,float
+2nd Flr SF ,float
+Low Qual Fin SF ,float
+Gr Liv Area ,float
+Garage Area ,float
+Wood Deck SF ,float
+Open Porch SF ,float
+Enclosed Porch ,float
+3Ssn Porch,float
+Screen Porch ,float
+Pool Area ,float
+Misc Val ,float
+SalePrice ,float
+Id,int
+Year Built ,int
+Year Remod/Add ,int
+Bsmt Full Bath ,int
+Bsmt Half Bath ,int
+Full Bath ,int
+Half Bath ,int
+Bedroom AbvGr,int
+Kitchen AbvGr,int
+TotRms AbvGrd,int
+Fireplaces ,int
+Garage Yr Blt ,int
+Garage Cars ,int
+Mo Sold ,int
+Yr Sold ,int
