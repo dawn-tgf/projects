@@ -30,7 +30,7 @@ For numerical variables, correlation was also looked into to pick variables that
 For categorical variables, boxplot were used to eliminate skewed distribution
 
 ### Procedures:
-1. Data was cleaned first.  
+Data was cleaned first.  
 
 Two datasets each have 81 columns which include 23 nominal, 23 ordinal, 14 discrete, and 20 continuous variables (and 2 additional observation identifiers).  
 
@@ -47,9 +47,9 @@ Columns with missing observations in between 3% and 80% were looked into.  It tu
 The ordinal columns have a rating on the physical feature of the property, so rating encoding was performed for those selected ones.
 
 Physical features such as garage, basement, and house have multiple variables describing their quality/conditions, a combined variable was created to describe them.  For example:
-  `'hse_cond'` is a combined rating from 5 varibles: Overall Qual,Overall Cond, Exter Qual, Exter Cond, and Functional.
-  `'garage_cond'` combines: Garage Cond, Garage Finish, and Garage Qua.  
-  `'bsmt_gen_cond'` combine: BsmtFinType 1, BsmtFinType 2, Bsmt Cond, and Bsmt Qual
+* `'hse_cond'` is a combined rating from 5 varibles: Overall Qual,Overall Cond, Exter Qual, Exter Cond, and Functional.
+*  `'garage_cond'` combines: Garage Cond, Garage Finish, and Garage Qua.  
+*  `'bsmt_gen_cond'` combine: BsmtFinType 1, BsmtFinType 2, Bsmt Cond, and Bsmt Qual
 
 Dummy cols were created for the selected features such as 'Garage Type', 'MS Zoning', 'Condition 1' and 'Condition 2', etc.  
 
@@ -59,8 +59,7 @@ I'm particular interested to know if a property near busy road such as artery ro
 ### Type of Modeling
 Four types of modeling methods were looked into: Linear Regression, Lasso, Ridge and ElasticNet regression.  The mean r2 score is compared and the best model was selected to regress the test data.
 
-
-## Conclusion
+## Results
 The baseline model using 16 variabels produced acceptable predictions with r2 scores in the 0.80 range on train data. The Kaggle score is 32490.57052. The performance of all of them are similiar.  The second feature
 
 The  None-lineararity and homoscedasticity in the residual plot suggests that the target is not normally distributed (which is what we observed). Properties at two sides of the scale (very small or very big properties) will be under_estimated by the regression model.  
@@ -69,4 +68,5 @@ If time allows, we can run your target vector through a power transformation and
 
 Based on the data available from the dataset, no information could be derived regarding the location desirability.  Column Neighborhood lists 28 neighborhood towns, but we don't have information as to which town is more prestige.  Usually this information can be derived from the average household income by areas, or simplily crime rate by area.  Without information like these, we are not able to rank the neighborhood, and that is a big piece of missing information to help build a more accurate model.
 
+## Conclusion
 Lastly, the model revealed that the key variables that contributes to *higher* sale price are: `'Gr Liv Area`',`'hse_cond'`, `'kitchen_qu_num'`, followed by `'Lot Area'` and `'Garage Cars'`, this is common in all models.  Variabels that would affect sale price *negatively* are: `age`,and `'total_baths'` and `'Bedroom AgvGr'`, although the last two variables are unexpected.
