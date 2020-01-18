@@ -2,7 +2,7 @@
 
 ### Problem Statement
 
-To create a model based to predict the housing price for a house seller in Ames Housing Dataset.
+To create a model to predict the housing price for a house seller based on Ames Housing Dataset
 
 ### Investigation
 Project 2 presented us two datasets: train.csv and test.csv, describing the sale of individual residential property in Ames, Iowa from 2006 to 2010.
@@ -22,7 +22,7 @@ First one needs to understand what a buyer looks for in order to maximize your h
 - Is the basement finished?  
 - How big is the garage?
 - Does it near amenities/park/busy roads?
-- Is the neighbourhood safe?
+- Is the neighborhood safe?
 
 Variables related to these set the basic features for exploring the data.
 
@@ -60,13 +60,13 @@ I'm particular interested to know if a property near busy road such as artery ro
 Four types of modeling methods were looked into: Linear Regression, Lasso, Ridge and ElasticNet regression.  The mean r2 score is compared and the best model was selected to regress the test data.
 
 ## Results
-The baseline model using 16 variabels produced acceptable predictions with r2 scores in the 0.80 range on train data. The Kaggle score is 32490.57052. The performance of all of them are similiar.  The second feature
+The baseline model using 16 variables produced acceptable predictions with r2 scores in the 0.80 range on train data. The Kaggle score is 32490.57052 with the linear regression. The performance of all of them are similar.  The second feature set (30 variables) produced slightly better r2 scores, linear regression has the highest of 0.87, its Kaggle score is 30619.55811. Although the results of the second set (30 features) is higher, but that's likely due to the increase of variables, as we don't observe obvious improvement with the residual plots.
 
-The  None-lineararity and homoscedasticity in the residual plot suggests that the target is not normally distributed (which is what we observed). Properties at two sides of the scale (very small or very big properties) will be under_estimated by the regression model.  
+The  None-linearity and homoscedasticity in the residual plot suggests that the target is not normally distributed (which is what we observed). Properties at two sides of the scale (very small or very big properties) will be underestimated by the regression model.  
 
 If time allows, we can run your target vector through a power transformation and see if that improves the results.
 
-Based on the data available from the dataset, no information could be derived regarding the location desirability.  Column Neighborhood lists 28 neighborhood towns, but we don't have information as to which town is more prestige.  Usually this information can be derived from the average household income by areas, or simplily crime rate by area.  Without information like these, we are not able to rank the neighborhood, and that is a big piece of missing information to help build a more accurate model.
+Based on the data available from the dataset, no information could be derived regarding the location desirability.  Column Neighborhood lists 28 neighborhood towns, but we don't have information as to which town is more prestige.  Usually this information can be derived from the average household income by areas, or simplify crime rate by area.  Without information like these, we are not able to rank the neighborhood, and that is a big piece of missing information to help build a more accurate model.
 
 ## Conclusion
-Lastly, the model revealed that the key variables that contributes to *higher* sale price are: `'Gr Liv Area`',`'hse_cond'`, `'kitchen_qu_num'`, followed by `'Lot Area'` and `'Garage Cars'`, this is common in all models.  Variabels that would affect sale price *negatively* are: `age`,and `'total_baths'` and `'Bedroom AgvGr'`, although the last two variables are unexpected.
+Lastly, the model revealed that the key variables that contributes to *higher* sale price are: `'Gr Liv Area`',`'hse_cond'`, `'kitchen_qu_num'`, followed by `'Lot Area'` and `'Garage Cars'`, this is common in all models.  Variables that would affect sale price *negatively* are: `age`,and `'total_baths'` and `'Bedroom AgvGr'`, although the last two variables are unexpected.
