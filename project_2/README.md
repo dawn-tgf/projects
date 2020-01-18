@@ -12,7 +12,7 @@ There are three jupyter notebooks for this project:
 2. project_2_train-data_pre-model.ipynb - it contains the data cleanup and alignment with the train dataset for the test data.
 3. project_2_modeling.ipynb - it contains the modeling, reporting and conclusion of the project.
 
-First one needs to understand what a home buyer looks for. Generally, it encompasses the followings:
+First one needs to understand what a buyer looks for in order to maximize your home value when you want to sell. Generally, it encompasses the followings:
 - How big is the house?
 - How old is it?
 - What's the house condition?
@@ -61,7 +61,7 @@ Four types of modeling methods were looked into: Linear Regression, Lasso, Ridge
 
 
 ## Conclusion
-The baseline model using 16 variabels produced acceptable predictions with r2 scores in the 0.80 range on train data. The Kaggle score is 32490.57052. The performance of all of them are similiar.  The second feature 
+The baseline model using 16 variabels produced acceptable predictions with r2 scores in the 0.80 range on train data. The Kaggle score is 32490.57052. The performance of all of them are similiar.  The second feature
 
 The  None-lineararity and homoscedasticity in the residual plot suggests that the target is not normally distributed (which is what we observed). Properties at two sides of the scale (very small or very big properties) will be under_estimated by the regression model.  
 
