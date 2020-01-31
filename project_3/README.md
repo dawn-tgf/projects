@@ -20,16 +20,6 @@ The performance results show that none of the models generalize well. The best m
  ## Conclusion
 
  The classifier is able to predict a SuicideWatch post with an accuracy of 77% and sensitivity of 85%, which isn't fantastic. However what is learnt from this project is:
- - 1) If someone mentions "suicide", "suicidal" or "kill", or "die" in a post, we shouldn't ignore the potential of suicidal intention, for very obvious reasons.
- - 2) A suicidal person tends to say things like "doesn't matter", or "it's okay" in his post, which is the exact opposite of the situation.  
- - 3) A suicidal person also seems to mention "ex" and "dad" - as I'm not a domain expert in psychology, but it's natural to guess that father has some sort of influence, and relationship is one of the reasons of suicides.  This can be verified with the domain experts.
-
-### Necessary Deliverables / Submission
-
-- Code and executive summary must be in a clearly commented Jupyter Notebook.
-- You must submit your slide deck.
-- Materials must be submitted by **9:00 AM on Friday, Jan 31st**.
-
----
-
-## Rubric
+ - If someone mentions "suicide", "suicidal" or "kill", or "die" in a post, we shouldn't ignore the potential of suicidal intention, for very obvious reasons.
+ - A suicidal person tends to say things like "doesn't matter", or "it's okay" in his post, which is the exact opposite of the situation.  
+ - A suicidal person also seems to mention "ex" and "dad" - as I'm not a domain expert in psychology, but it's natural to guess that father has some sort of influence, and relationship is one of the reasons of suicides.  This can be verified with the domain experts.
