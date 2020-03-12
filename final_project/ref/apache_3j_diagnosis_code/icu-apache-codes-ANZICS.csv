@@ -1,0 +1,123 @@
+101,Cardiogenic shock
+102,Cardiac arrest
+103,Aortic aneurysm
+104,Congestive heart failure
+105,Peripheral vascular disease
+106,Rhythm disturbance
+107,Acute myocardial infarction
+108,Hypertension
+109,Other cardiovascular disease
+110,Cardiomyopathy
+111,Unstable angina
+201,Aspiration pneumonia
+202,Respiratory neoplasm including larynx/trachea
+203,Respiratory arrest
+204,Pulmonary oedema – non-cardiac
+206,Chronic obstructive pulmonary disease
+207,Pulmonary embolism
+208,Mechanical airway obstruction
+209,Asthma
+210,Parasitic pneumonia
+211,Other respiratory diseases
+212,Bacterial pneumonia
+213,Viral pneumonia
+301,Hepatic failure
+303,GI bleeding – varices
+305,GI bleeding – ulcer/laceration
+306,GI bleeding – diverticulosis
+307,Other GI disease
+308,GI perforation
+309,GI obstruction
+310,GI vascular insufficiency
+311,Pancreatitis
+312,GI cancer
+313,Other GI inflammatory disease
+401,Intracerebral haemorrhage
+402,Subarachnoid haemorrhage
+403,Stroke
+404,Neurologic infection
+405,Neurologic neoplasm
+406,Neuromuscular disease
+407,Seizure
+408,Other neurologic disease
+409,Epidural haematoma
+410,Coma
+501,"Sepsis, other than urinary"
+502,Sepsis of urinary tract origin
+503,"Sepsis with shock, other than urinary"
+504,Sepsis of urinary tract origin with shock
+601,Head trauma +/- multi trauma
+602,Multiple trauma excluding head
+603,Burns                                                             
+604,Multi trauma with spinal injury                
+605,Isolated cervical spine injury                    
+701,Metabolic coma
+702,Diabetic ketoacidosis
+703,Drug overdose
+704,Other metabolic disorders
+"801 
+",Coagulopathy/Neutropaenia/Thrombocytopaenia
+"802 
+",Other haematologic disorders
+"901 
+",Renal disorders
+"902 
+",Pre-eclampsia
+"903 
+","Haemorrhage, post-partum (female only)"
+"1101 
+",Musculoskeletal/Skin disease
+"1102 
+",Cellulitis/Soft tissue infection
+0,
+1202,Peripheral vascular disease
+1203,Peripheral artery bypass graft
+1204,Elective AAA
+1205,Carotid endarterectomy
+1206,Valvular heart surgery
+1207,Coronary artery bypass grafts          
+1208,Other cardiovascular diseases
+1209,Dissecting aortic aneurysm
+1210,Ruptured aortic aneurysm
+1211,Aorto-femoral bypass graft
+1212,CABG with valve repair/replacement
+1213,Endoluminal aortic repair                      
+1301,Respiratory infection
+1302,Respiratory neoplasm – lung
+1303,"Respiratory neoplasm – mouth, larynx, sinus, trachea"
+1304,Other respiratory diseases
+1401,GI perforation/rupture (not peritonitis)
+1403,GI bleeding
+1404,GI obstruction
+1405,GI neoplasm
+1406,Cholecystitis/Cholangitis
+1407,Liver transplant
+1408,Other GI diseases
+1409,Fistula/Abscess surgery
+1410,GI vascular ischaemia resection surgery
+1411,Pancreatitis
+1412,Peritonitis
+1413,Other GI inflammatory disease
+1501,Intracerebral haemorrhage
+1502,Subdural/Epidural haematoma
+1503,Subarachnoid haemorrhage
+1504,Laminectomy/Spinal cord surgery
+1505,Craniotomy for neoplasm
+1506,Other neurologic disease
+1601,Head trauma +/- multi trauma
+1602,Multiple trauma excluding head
+1603,Burns                                                         
+1604,Multi trauma with spinal injury            
+1605,Isolated cervical spine injury                 
+1701,Renal neoplasm
+1703,Other renal diseases
+1704,Kidney transplant
+1705,Genitourinary surgery/procedure
+1801,Hysterectomy
+1802,Pregnancy-related disorder
+1803,Other gynaecological disease
+1902,Orthopaedic surgery
+1903,Skin surgery
+1904,Cellulitis/Soft tissue infection
+2101,Haematological disease
+2201,Metabolic disease

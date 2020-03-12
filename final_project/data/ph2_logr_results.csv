@@ -1,0 +1,35 @@
+,model,model_name,roc_auc,accuracy,recall,specificity,precision,f1_score
+0,Basic Logistic Regression,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=200,
+                   multi_class='auto', n_jobs=None, penalty='l1',
+                   random_state=42, solver='liblinear', tol=0.0001, verbose=0,
+                   warm_start=False)",0.8779360613409773,0.8086266300318374,0.7796867104598282,0.8113603818615752,0.2808007279344859,0.4128980465614129
+1,Optimized Logistic Regression (drop var),"RandomizedSearchCV(cv=StratifiedShuffleSplit(n_splits=3, random_state=42, test_size=0.25,
+            train_size=None),
+                   error_score=nan,
+                   estimator=LogisticRegression(C=1.0, class_weight=None,
+                                                dual=False, fit_intercept=True,
+                                                intercept_scaling=1,
+                                                l1_ratio=None, max_iter=100,
+                                                multi_class='auto', n_jobs=None,
+                                                penalty='l2', random_state=42,
+                                                solver='lbfgs', tol=0.0001,
+                                                verbose=0, warm...
+                   param_distributions={'C': array([1.00000000e-02, 2.78255940e-02, 7.74263683e-02, 2.15443469e-01,
+       5.99484250e-01, 1.66810054e+00, 4.64158883e+00, 1.29154967e+01,
+       3.59381366e+01, 1.00000000e+02]),
+                                        'penalty': ['l1', 'l2'],
+                                        'solver': ['liblinear', 'lbfgs', 'sag',
+                                                   'saga']},
+                   pre_dispatch='2*n_jobs', random_state=42, refit=True,
+                   return_train_score=False, scoring='roc_auc', verbose=10)",0.8780981450818319,0.8098914038989925,0.7796867104598282,0.812744630071599,0.2822905232345408,0.4145063801208865
+2,Basic Logistic Regression,"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=200,
+                   multi_class='auto', n_jobs=None, penalty='l1',
+                   random_state=42, solver='liblinear', tol=0.0001, verbose=0,
+                   warm_start=False)",0.8779360613409773,0.8086266300318374,0.7796867104598282,0.8113603818615752,0.2808007279344859,0.4128980465614129
+3,Basic Logistic Regression(impute0),"LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=200,
+                   multi_class='auto', n_jobs=None, penalty='l1',
+                   random_state=42, solver='liblinear', tol=0.0001, verbose=0,
+                   warm_start=False)",0.8765002212973695,0.8114178551179728,0.774633653360283,0.814892601431981,0.2833117723156533,0.41488497970230037

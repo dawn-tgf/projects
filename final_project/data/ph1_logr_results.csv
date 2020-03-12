@@ -1,0 +1,20 @@
+,model,model_name,roc_auc,accuracy,recall,specificity,precision,f1_score
+0,Optimized Logistic Regression,"RandomizedSearchCV(cv=StratifiedShuffleSplit(n_splits=5, random_state=42, test_size=0.33,
+            train_size=None),
+                   error_score=nan,
+                   estimator=LogisticRegression(C=1.0, class_weight=None,
+                                                dual=False, fit_intercept=True,
+                                                intercept_scaling=1,
+                                                l1_ratio=None, max_iter=100,
+                                                multi_class='auto', n_jobs=None,
+                                                penalty='l2', random_state=42,
+                                                solver='lbfgs', tol=0.0001,
+                                                verbose=0, warm...
+                   param_distributions={'C': array([1.00000000e-02, 2.78255940e-02, 7.74263683e-02, 2.15443469e-01,
+       5.99484250e-01, 1.66810054e+00, 4.64158883e+00, 1.29154967e+01,
+       3.59381366e+01, 1.00000000e+02]),
+                                        'penalty': ['l1', 'l2', 'none'],
+                                        'solver': ['liblinear', 'newton-cg',
+                                                   'lbfgs', 'sag', 'saga']},
+                   pre_dispatch='2*n_jobs', random_state=42, refit=True,
+                   return_train_score=False, scoring='roc_auc', verbose=10)",0.8420166401150024,0.7797985084390946,0.7427993936331481,0.7832935560859189,0.24459234608985025,0.36800600826135943
